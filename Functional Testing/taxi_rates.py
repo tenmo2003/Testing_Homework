@@ -6,7 +6,7 @@ price_values = [
 ]
 
 def calculate_rate(km, carType):
-    if (km < 0):
+    if (km < 0 or km > 500):
         raise ValueError('Invalid distance')
     if (carType != 1 and carType != 2):
         raise ValueError('Invalid car type')
@@ -22,9 +22,9 @@ def calculate_rate(km, carType):
         
 def main():
     carType = int(input('Car types available: \n1 - VF5 Plus\n2 - VF e34\nChoose: '))
-    distance = int(input('Distance travelled: '))
+    distance = float(input('Distance travelled: '))
     try :
-        print('{:,}'.format(calculate_rate(distance, carType)))
+        print('{:,} VND'.format(round(calculate_rate(distance, carType))))
     except ValueError as e:
         print(e)
 
