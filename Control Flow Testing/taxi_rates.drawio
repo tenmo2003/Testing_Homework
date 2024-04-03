@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T10:55:17.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="UrX-7SOmT4MCWM6ijv2d" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T10:55:30.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="tOeu-lEJrg935trxMrTn" version="24.2.1" type="github">
   <diagram name="Page-1" id="zPGRw3HBfnQC19OAq6zw">
     <mxGraphModel dx="1191" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
             <mxPoint x="165.33333333333348" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="onb37vQSFci2zJddi1So-34" value="&lt;span id=&quot;selected_text&quot;&gt;&lt;/span&gt;&lt;span id=&quot;selected_text&quot;&gt;&lt;/span&gt;&lt;span id=&quot;selected_text&quot;&gt;&lt;/span&gt;(10) value = value + price_values[carType - 1][i] * min(km, price_ranges[i])&lt;div&gt;km = km - price_ranges[i]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="onb37vQSFci2zJddi1So-34" value="&lt;span id=&quot;selected_text&quot;&gt;&lt;/span&gt;&lt;span id=&quot;selected_text&quot;&gt;&lt;/span&gt;&lt;span id=&quot;selected_text&quot;&gt;&lt;/span&gt;&lt;span id=&quot;selected_text&quot;&gt;&lt;/span&gt;&lt;span id=&quot;selected_text&quot;&gt;&lt;/span&gt;(10) value = value + price_values[carType - 1][i] * min(km, price_ranges[i])" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="705" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="onb37vQSFci2zJddi1So-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="onb37vQSFci2zJddi1So-36" target="onb37vQSFci2zJddi1So-21" edge="1">
